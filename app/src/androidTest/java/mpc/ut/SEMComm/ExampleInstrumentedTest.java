@@ -1,4 +1,4 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

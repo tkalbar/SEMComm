@@ -1,4 +1,4 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,20 +7,15 @@ import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.util.Log;
 
-import com.bluelinelabs.logansquare.LoganSquare;
 import com.peak.salut.Callbacks.SalutCallback;
-import com.peak.salut.Callbacks.SalutDataCallback;
 import com.peak.salut.Callbacks.SalutDeviceCallback;
 import com.peak.salut.Salut;
 import com.peak.salut.SalutDataReceiver;
 import com.peak.salut.SalutDevice;
 import com.peak.salut.SalutServiceData;
 
-import java.io.IOException;
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
-import java.util.Timer;
 
 /**
  * Created by Aurelius on 12/3/16.

@@ -1,4 +1,4 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.bluetooth.BluetoothSocket;
 import android.util.Log;

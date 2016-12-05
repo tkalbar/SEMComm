@@ -1,21 +1,12 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.le.AdvertiseData;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.preference.SwitchPreference;
 import android.util.Log;
 
-import com.bluelinelabs.logansquare.LoganSquare;
-import com.peak.salut.SalutDevice;
-
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
 
 /**
  * Created by Aurelius on 12/2/16.

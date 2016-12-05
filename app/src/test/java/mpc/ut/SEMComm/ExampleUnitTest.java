@@ -1,4 +1,4 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import org.junit.Test;
 

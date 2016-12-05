@@ -1,6 +1,5 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
-import android.media.audiofx.BassBoost;
 import android.util.Log;
 
 import java.io.IOException;

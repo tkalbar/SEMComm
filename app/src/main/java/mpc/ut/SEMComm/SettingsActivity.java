@@ -1,39 +1,30 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.app.Fragment;
 import android.bluetooth.BluetoothAdapter;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.ParcelUuid;
-import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
-import android.preference.SwitchPreference;
 import android.preference.PreferenceFragment;
-import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MenuItem;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 
 import android.view.View;
@@ -51,7 +42,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import com.github.mikephil.charting.utils.ViewPortHandler;
 import com.peak.salut.Callbacks.SalutDataCallback;
 
-import static mpc.ut.uisandbox.BluetoothTech.mReceiver;
+import static mpc.ut.SEMComm.BluetoothTech.mReceiver;
 
 public class SettingsActivity extends Activity implements SalutDataCallback {
 

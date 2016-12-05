@@ -1,8 +1,6 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.bluetooth.le.AdvertiseData;
-import android.media.audiofx.BassBoost;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;

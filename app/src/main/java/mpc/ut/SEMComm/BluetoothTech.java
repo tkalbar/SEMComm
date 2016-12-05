@@ -1,4 +1,4 @@
-package mpc.ut.uisandbox;
+package mpc.ut.SEMComm;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -22,7 +22,6 @@ import android.bluetooth.le.ScanResult;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Handler;
 import android.os.ParcelUuid;
 import android.util.Log;
 
@@ -31,7 +30,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.UUID;
 
 public class BluetoothTech {
